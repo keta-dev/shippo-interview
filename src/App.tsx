@@ -12,11 +12,12 @@ function App() {
   return (
     <>
       <Header />
-      <div className="heading">
-        <Typography variant="h1">Create customized User signup forms</Typography>
-        <Typography textSize="large">Be in control of data required for users to sign up</Typography>
-      </div>
       <main className="main">
+        <div className="heading">
+          <Typography variant="h1">Create customized User signup forms</Typography>
+          <Typography textSize="large">Be in control of data required for users to sign up</Typography>
+        </div>
+
         <Card cardText='Select your prefered option'>
           <Options options={[
             {label: "Radio", value: "Radio", active: true},
