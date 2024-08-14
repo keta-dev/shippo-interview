@@ -1,0 +1,15 @@
+input[type=text], input[type=email], input[type=tel], input[type=search] {
+  display: block;
+  width: calc(100% - 2em);
+  font-size: 16px;
+  background-color: #FFFFFF;
+  color: var(--text-primary);
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  padding: 1em;
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--text-placeholder);
+}

@@ -1,0 +1,52 @@
+.toggle-input {
+  cursor: pointer;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.toggle {
+  cursor: pointer;
+  background-color: var(--bg-color);
+  height: 18px;
+  width: 30.46px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.toggle::after {
+  content: "";
+  position: absolute;
+  width: 15.23px;
+  height: 15.23px;
+  border-radius: 50%;
+  transition: all 0.5m;
+}
+
+.toggle-outline.toggle-on {
+  border: 1px solid var(--primary-color);
+}
+.toggle-fill.toggle-on {
+  border: none;
+}
+
+.toggle-on::after {
+  background-color: var(--primary-color);
+  left: 2px;
+}
+
+.toggle-outline.toggle-off {
+  border: 1px solid var(--text-secondary);
+}
+
+.toggle-fill.toggle-off {
+  border: none;
+}
+
+.toggle-off::after {
+  background-color: var(--text-secondary);
+  right: 2px;
+}

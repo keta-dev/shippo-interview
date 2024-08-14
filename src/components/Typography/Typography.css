@@ -1,0 +1,29 @@
+.typo-h1, .typo-h2, .typo-h3, .typo-h4, .typo-h5, .typo-h6 {
+  font-weight: bold;
+  margin: 0 !important;
+}
+
+.typo-primary {
+  color: var(--text-primary);
+}
+
+.typo-secondary {
+  color: var(--text-secondary);
+}
+
+.typo-h1 {
+  font-size: 2.25em !important;
+}
+
+.typo-p, .typo-medium, p {
+  font-size: 1em;
+  margin: 0 !important;
+}
+
+.typo-small {
+  font-size: 14px;
+}
+
+.typo-large {
+  font-size: 18px;
+}
